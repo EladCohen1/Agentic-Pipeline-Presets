@@ -19,7 +19,9 @@ adapts its files into the project, which then owns them.
 Follow [APPLYING.md](APPLYING.md). It is written for an agent; point one at it with something like:
 
 > Create a new repo for a Unity project called "Some Name", then apply the Recon-Build-Review and
-> Parallel Agents presets from `C:\Projects\Agentic-Pipeline-Presets`.
+> Parallel Agents presets from https://github.com/EladCohen1/Agentic-Pipeline-Presets.
+
+A local clone works the same way; point the agent at its folder instead.
 
 Apply Recon-Build-Review first when using both.
 
@@ -27,10 +29,10 @@ Apply Recon-Build-Review first when using both.
 
 Real projects that run these presets. Read them when adapting a preset to a similar stack.
 
-| Project | Stack | Presets | Local path |
+| Project | Stack | Presets | Repository |
 |---|---|---|---|
-| Chef Knight Desktop Adventures | Unity 6, C# | Both | `C:\Projects\Chef-Knight-Desktop-Adventures` (project in the `Chef Knight Desktop Adventures` subfolder) |
-| Agentic Office Simulation | Electron, TypeScript, React | Both | `C:\Projects\AgenticOfficeSimulation` |
+| Chef Knight Desktop Adventures | Unity 6, C# | Both | [EladCohen1/Chef-Knight-Desktop-Companion](https://github.com/EladCohen1/Chef-Knight-Desktop-Companion) (private; the Unity project lives in a subfolder of the git root) |
+| Agentic Office Simulation | Electron, TypeScript, React | Both | [EladCohen1/Agentic-Office-Simulation](https://github.com/EladCohen1/Agentic-Office-Simulation) |
 
 ## Conventions in this repository
 

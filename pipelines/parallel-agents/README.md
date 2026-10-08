@@ -51,9 +51,9 @@ options.
 
 | Token | Meaning | Unity example | Electron example |
 |---|---|---|---|
-| `{{MAIN_CHECKOUT}}` | Absolute path of the user's main checkout (git root) | `C:\Projects\Chef-Knight-Desktop-Adventures` | `C:\Projects\AgenticOfficeSimulation` |
-| `{{TEAM_ROOT}}` | Absolute folder holding the team worktrees, beside the main checkout | `C:\Projects\Chef-Knight-Desktop-Adventures-team` | `C:\Projects\AgenticOfficeSimulation-team` |
-| `{{PROJECT_DIR}}` | The project folder inside each worktree, relative to the worktree root | `Chef Knight Desktop Adventures` | `.` |
+| `{{MAIN_CHECKOUT}}` | Absolute path of the user's main checkout (git root) | `C:\Projects\MyGame` | `C:\Projects\MyApp` |
+| `{{TEAM_ROOT}}` | Absolute folder holding the team worktrees, beside the main checkout | `C:\Projects\MyGame-team` | `C:\Projects\MyApp-team` |
+| `{{PROJECT_DIR}}` | The project folder inside each worktree, relative to the worktree root | `MyGame` (Unity project in a subfolder) | `.` |
 | `{{PROTECTED_BRANCHES}}` | Branches no team session commits to or merges into | `` `QA`, `main` `` | `` `main` `` |
 | `{{AGENT_PREFIX}}` | The Recon-Build-Review agent prefix | `unity` | `electron` |
 
